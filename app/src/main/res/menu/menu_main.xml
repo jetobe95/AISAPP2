@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+
+tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/bulocation"
+        android:icon="@drawable/locationbuttom"
+        android:title="Modo Navegacion"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menubttom"
+        android:icon="@drawable/menubuttom"
+        android:title="Significado de colores"
+        app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/uno"
+            android:icon="@drawable/arrowamarillom"
+            android:title="High Speed Craft" />
+        <item
+            android:id="@+id/dos"
+            android:icon="@drawable/arrowrojom"
+            android:title="Tanker" />
+        <item
+            android:id="@+id/tres"
+            android:icon="@drawable/arrowazulm"
+            android:title="Tug and Special Craft" />
+        <item
+            android:id="@+id/cuatro"
+            android:icon="@drawable/arrowverdem"
+            android:title="Cargo" />
+        <item
+            android:id="@+id/cinco"
+            android:icon="@drawable/arrowazuloscm"
+            android:title="Passenger" />
+        <item
+            android:id="@+id/seis"
+            android:icon="@drawable/arrowpielm"
+            android:title="Fishing" />
+        <item
+            android:id="@+id/siete"
+            android:icon="@drawable/arrowrosadom"
+            android:title="Pleasure Craft" />
+        <item
+            android:id="@+id/ocho"
+            android:icon="@drawable/arrowgrism"
+            android:title="Unspecified" />
+    </menu>
+
+    </item>
+
+
+
+</menu>
